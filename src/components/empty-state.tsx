@@ -87,7 +87,7 @@ function StackedCard({ className, ...props }: StackedCardProps) {
     <motion.div
       className={cn(
         "shadow-2xs bg-background border border-border rounded-xl size-25 p-1 col-1 row-1",
-        className
+        className,
       )}
       transition={{
         type: "spring",
